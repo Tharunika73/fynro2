@@ -402,17 +402,20 @@ li{
     display: inline-flex;
 }
 .t1{
-    font-family:" Gilroy-SemiBold",sans-serif;
+    font-family: "Gilroy-SemiBold",sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0%;
+    position: absolute;
+    top:30px;
 }
-.icon{
+.photo{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top:-25px;
     
-    display: inline-flex;
-    width: 100px;
-    height: 100px;
 }
 .t2{
     font-family: "Gilroy-Medium",sans-serif;
@@ -421,6 +424,5 @@ li{
     line-height: 24px;
     letter-spacing: 0%;
     position: absolute;
-    bottom:20px;
-
+    top:70px;
 }
