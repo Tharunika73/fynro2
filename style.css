@@ -409,8 +409,18 @@ li{
     letter-spacing: 0%;
 }
 .icon{
-    background-color: #8e0f62;
+    
     display: inline-flex;
     width: 100px;
     height: 100px;
+}
+.t2{
+    font-family: "Gilroy-Medium",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    position: absolute;
+    bottom:20px;
+
 }
