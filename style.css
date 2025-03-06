@@ -430,7 +430,7 @@ li{
     background-color: #F7F9FF;
     background-image: url(Bg.png),url(Bg1.png);
     height: 900px;
-    width:100%;
+    width: 100%;
     
 }
 .b1{
@@ -492,6 +492,9 @@ li{
     line-height: 16px;
     letter-spacing: 0%;
     display: inline-block;
+    position: absolute;
+    top:-5px;
+    left: 25px;
 
 }
 .bo{
@@ -511,11 +514,17 @@ li{
     width: 16px;
     height: 16px;
     display: inline-flex;
+    
 }
 .bag{
     width: 272px;
     height: 20px;
     display: inline-block;
+}
+.cro2{
+    position: absolute;
+    
+    bottom:-75px;
 }
 .q{
     width: 200px;
@@ -523,8 +532,99 @@ li{
     display: inline-block;
     font-family: "Gilroy-Medium",sans-serif;
     font-weight: 100;
+    position: absolute;
+    bottom: -85px;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0%;
+}
+.bl1{
+    width: 296px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #F7F9FF;
+    position: relative;
+    top: 340px;
+    left: 12px;
+}
+.book{
+    width: 80px;
+    height: 40px;
+    top: 10px;
+    left: 204px;
+    border-radius: 10px;
+    
+    position: absolute;
+    gap: 8px;
+    background-color: #5978FF;
 
+}
+#book2{
+    
+    font-family: "Gilroy-SemiBold",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    padding-top: -10px;
+    padding-right: 20px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    position:absolute;
+    color: white
+}
+.cred{
+    font-family: "Gilroy-SemiBold",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.r1{
+    width: 54px;
+    height: 16px;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+
+}
+.r2{
+    width: 107px;
+    height: 22px;
+    top: 20px;
+    left: 12px;
+    position: absolute;
+
+}
+.cred2{
+    font-family: "Gilroy-Medium",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-decoration: line-through;
+}
+.expl1{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 2650px;
+    left: 573px;
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-right: 28px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    gap: 8px;
+    border: dotted;
+    border-color: #5978FF;
+    font-family: "poppins",sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #5978FF;
+    border-width: 2px;
 }
